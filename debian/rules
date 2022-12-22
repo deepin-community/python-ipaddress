@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=ipaddress
+
+%:
+	dh $@ --with pypy --buildsystem=pybuild
